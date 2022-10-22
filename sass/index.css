@@ -143,6 +143,30 @@ select {
   padding-top: 120px;
 }
 
+.m-t-150 {
+  margin-top: 150px;
+}
+
+.p-t-150 {
+  padding-top: 150px;
+}
+
+.m-t-180 {
+  margin-top: 180px;
+}
+
+.p-t-180 {
+  padding-top: 180px;
+}
+
+.m-t-200 {
+  margin-top: 200px;
+}
+
+.p-t-200 {
+  padding-top: 200px;
+}
+
 .p-15 {
   padding: 15px;
 }
@@ -565,6 +589,7 @@ select {
 
 .cr-form {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 30px 29px 29px;
   background-color: #ffffff;
@@ -939,6 +964,24 @@ select {
   }
   .p-t-120 {
     padding-top: 80px;
+  }
+  .m-t-150 {
+    margin-top: 100px;
+  }
+  .p-t-150 {
+    padding-top: 100px;
+  }
+  .m-t-180 {
+    margin-top: 120px;
+  }
+  .p-t-180 {
+    padding-top: 120px;
+  }
+  .m-t-200 {
+    margin-top: 140px;
+  }
+  .p-t-200 {
+    padding-top: 140px;
   }
   .mob-d-center {
     justify-content: center;
