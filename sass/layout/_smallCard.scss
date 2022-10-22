@@ -1,0 +1,29 @@
+.small{
+    &-card{
+        position:relative;
+        min-width: 350px;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+        &-image{
+            min-width:100%;
+            max-width: 350px;
+            max-height: 200px;
+        }
+
+        &-highlight{
+            box-shadow: 0 0 90px 0 rgba(41, 44, 28, 0.2);
+        }
+       
+    }
+}
+
+.card-padding-1{
+    padding:30px 35px 45px;
+}
+.card-padding-2{
+    padding:30px 35px;
+}
+.small-label{
+    padding:10px
+}

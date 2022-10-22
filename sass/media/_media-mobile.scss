@@ -1,0 +1,105 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+@media screen and (max-width: $mobileBreakpoint) {
+  @each $suffix, $size in $mobileFontSizes {
+    .font-#{$suffix} {
+      font-size: $size + px;
+    }
+  }
+  @each $suffix, $value in $spacingMobile {
+    .m-t-#{$suffix} {
+      margin-top: $value + px;
+    }
+    .p-t-#{$suffix} {
+      padding-top: $value + px;
+    }
+  }
+  .mob-d-center {
+    justify-content: center;
+  }
+  .small {
+    &-card {
+      min-width: 100%;
+      &-image {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 50px;
+
+    &-center {
+      display: none;
+      flex-direction: column;
+      text-align: center;
+      gap: 50px;
+      flex: 0;
+    }
+    &-right {
+      display: none;
+      justify-content: center;
+    }
+  }
+  .navbar {
+    gap: 30px;
+    flex-direction: column;
+    font-size: 20px;
+
+    li {
+      select {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .compare-icon {
+    font-size: 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .btn-orange,
+  .btn-black-rounded {
+    padding: 20px 30px;
+  }
+
+  .hotDeal {
+    &-image {
+      width: 100%;
+      height: 300px;
+    }
+
+    &-description {
+      width: 100%;
+    }
+  }
+
+  .area-card {
+    &-large {
+      width: 370px;
+    }
+  }
+
+  .agents-card {
+    min-width: 100%;
+  }
+
+  .slider-btn {
+    padding: 8px 14px;
+  }
+  .feedback-sliderBtn {
+    position: absolute;
+    right: 2%;
+    bottom: 7%;
+  }
+
+  .footer-icons {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

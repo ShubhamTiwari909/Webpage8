@@ -1,0 +1,37 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+
+.d-center{
+    @include flexProp(center);
+}
+.d-center-vertical{
+    @include flexProp(flex-start,center);
+}
+
+.h-space-between{
+    @include flexProp(space-between);
+}
+.v-space-between{
+    @include flexProp(space-between,flex-start,column);
+}
+.d-center-column{
+    @include flexProp(flex-start,center,column);
+}
+.d-center-both{
+    @include flexProp(center,center,row);
+}
+.d-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.d-flex{
+    display: flex;
+}
+@each $gap in $gaps {
+    .gap-#{$gap}{
+        gap: #{$gap}px;
+    }
+}

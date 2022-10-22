@@ -1,0 +1,44 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+.feedback{
+    @include bgImageTheme("https://dl.dropboxusercontent.com/s/h1m34nutq9ldmz6/testimonials-bg-1.png?dl=0");
+    height: 600px;
+    position: relative;
+    
+    &-cards-wrapper{
+        display:flex;
+        overflow: hidden;
+    }
+    &-card{
+        transform: translate(0);
+        transition: all 0.4s linear;
+    }
+    &-heading{
+        display: flex;
+        flex-direction: column;
+        height:200px;
+        justify-content:center;
+    }
+
+    &-user-image{
+        width:70px;
+        height:70px;
+        border-radius:50%;
+        object-fit:fill;
+    }
+    &-sliderBtn{
+        position:absolute;
+        right: 5%;
+        bottom: 10%;
+    }
+}
+
+.slider-btn{
+    padding:15px 22px;
+    background-color:$darkblue;
+    color: $white-one;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}

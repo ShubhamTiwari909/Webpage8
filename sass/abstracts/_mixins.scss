@@ -1,0 +1,45 @@
+@mixin button(
+  $paddings: 10px 20px,
+  $bgColor: black,
+  $borderRadius: 0px,
+  $fontSize: 16px
+) {
+  background-color: $bgColor;
+  padding: $paddings;
+  border-radius: $borderRadius;
+  font-size: $fontSize;
+}
+
+@mixin bgImageTheme($url:"") {
+  @if($url != "") {
+    background-image: url($url);
+  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin inputField($padding, $width: 100%) {
+  width: $width;
+  padding: $padding;
+}
+
+@mixin flexProp(
+  $justify: flex-start,
+  $align: flex-start,
+  $flexDirection: row
+) {
+  @if ($justify != flex-start) {
+    justify-content: $justify;
+  }
+  @if ($align != flex-start) {
+    align-items: $align;
+  }
+  @if ($flexDirection != row) {
+    flex-direction: column;
+  }
+}
+
+@mixin equalWidths($n: 1) {
+  width:calc(100% / $n);
+}

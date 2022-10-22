@@ -1,0 +1,44 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+.agents-card{
+    position: relative;
+    box-sizing: border-box;
+    min-width: 370px;
+    transition: all 0.4s linear;
+    transform:translateX(0);
+    left:0;
+
+    img{
+        width: 100%;
+    }
+
+    &-wrapper{
+        overflow: hidden;
+        display:flex;
+        justify-content:flex-start;
+        gap: 20px;
+    }
+}
+.social-icons{
+    border: 1px solid $lightgrey;
+    border-radius: 4px;
+    padding:10px 20px;
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    @include flexProp(center,center)
+}
+.border-rounded{
+    border: 1px solid $black-two;
+}
+.dot{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    background-color:$black-two;
+    border-radius: 50%;
+}

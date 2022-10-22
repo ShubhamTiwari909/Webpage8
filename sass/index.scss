@@ -1,0 +1,22 @@
+@use "./base/reset";
+@use "./abstracts/helpers";
+@use "./components/containers";
+@use "./base/typography";
+@use "./components/buttons";
+@use "./components/display";
+@use "./layout/form";
+@use "./layout/propertiesCard";
+@use "./layout/areaCard";
+@use "./layout/smallCard";
+
+@use "./layout/header";
+@use "./sections/hero";
+@use "./sections/hotDeal";
+@use "./sections/agents";
+@use "./sections/sell";
+@use "./sections/feedback";
+@use "./layout/footer";
+
+@use "./media/media-mobile";
+@use "./media/media-desktop";
+

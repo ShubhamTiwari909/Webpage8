@@ -1,0 +1,11 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+@media screen and (max-width: $desktopBreakpoint) {
+  .cr{
+    &-form{
+      flex-wrap: wrap;
+    }
+  }
+}
+

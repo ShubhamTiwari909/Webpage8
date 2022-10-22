@@ -1,0 +1,32 @@
+@use "../abstracts//variables" as *;
+
+@each $suffix, $size in $fontSizes {
+    .font-#{$suffix}{
+        font-size: $size+px;
+    }
+}
+
+@each $weight in $fontWeight {
+    .font-w-#{$weight}{
+        font-weight: $weight;
+    }
+}
+
+
+
+@each $color,$value in $textColors {
+    .text-#{$color}{
+        color: $value;
+    }
+}
+
+@each $color,$value in $backgroundColors {
+    .bg-#{$color}{
+        background-color: $value;
+    }
+}
+
+
+.text-center{
+    text-align: center;
+}

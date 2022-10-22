@@ -1,0 +1,16 @@
+@use "../abstracts/mixins" as *;
+
+.sell-property{
+    @include bgImageTheme("https://dl.dropboxusercontent.com/s/dkj02chybrem0zw/hero-bg-image.png?dl=0");
+    height:700px;
+    align-items:center;
+
+    &-card{
+        padding:80px 50px;
+        max-width: 600px;
+    }
+    &-btn{
+        display:flex;
+        justify-content:space-between;
+    }
+}

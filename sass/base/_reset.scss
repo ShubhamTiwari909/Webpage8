@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $Rubik;
+}
+body{
+    background-color:$white-three;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+select{
+    border: none;
+    outline: none;
+    font-weight: 600;
+}

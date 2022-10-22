@@ -1,0 +1,13 @@
+@use "../abstracts/mixins" as *;
+.hero{
+    height:650px;
+    @include bgImageTheme("https://dl.dropboxusercontent.com/s/dkj02chybrem0zw/hero-bg-image.png?dl=0");
+
+    &-wrapper{
+        position:relative;
+        top:50%;
+        transform:translateY(-50%);
+    }
+   
+}
+

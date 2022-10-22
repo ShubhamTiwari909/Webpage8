@@ -1,0 +1,51 @@
+@use "./variables" as *;
+
+@each $suffix,$value in $spacing {
+    .m-t-#{$suffix} {
+        margin-top: $value+px;
+    }
+    .p-t-#{$suffix}{
+        padding-top: $value+px;
+    }   
+}
+
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-25{
+    padding: 25px;
+}
+.p-30{
+    padding: 30px;
+}
+
+.p-y-60{
+    padding: 60px 0;
+}
+.p-y-120{
+    padding: 120px 0;
+}
+
+.w-100{
+    width: 100%;
+}
+.min-w-100{
+    min-width: 100%;
+}
+.max-w-250{
+    max-width: 250px;
+}
+
+
+
+.h-200{
+    height: 200px;
+}
+
+.l-h-one-half{
+    line-height:1.5;
+}
+
