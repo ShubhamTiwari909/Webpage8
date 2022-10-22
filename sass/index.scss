@@ -1,22 +1,31 @@
+// Reset
 @use "./base/reset";
+
+// Base
 @use "./abstracts/helpers";
-@use "./components/containers";
 @use "./base/typography";
+
+// Components
+@use "./components/containers";
 @use "./components/buttons";
 @use "./components/display";
+
+// Layout
+@use "./layout/areaCard";
+@use "./layout/header";
 @use "./layout/form";
 @use "./layout/propertiesCard";
-@use "./layout/areaCard";
 @use "./layout/smallCard";
+@use "./layout/footer";
 
-@use "./layout/header";
+// Sections
 @use "./sections/hero";
 @use "./sections/hotDeal";
 @use "./sections/agents";
 @use "./sections/sell";
 @use "./sections/feedback";
-@use "./layout/footer";
 
+
+// Media queries
 @use "./media/media-mobile";
-@use "./media/media-desktop";
 

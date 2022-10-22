@@ -1,6 +1,6 @@
 @use "./variables" as *;
 
-@each $suffix,$value in $spacing {
+@each $suffix,$value in $spacingTop {
     .m-t-#{$suffix} {
         margin-top: $value+px;
     }
@@ -38,7 +38,6 @@
 .max-w-250{
     max-width: 250px;
 }
-
 
 
 .h-200{

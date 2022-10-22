@@ -7,7 +7,7 @@
       font-size: $size + px;
     }
   }
-  @each $suffix, $value in $spacingMobile {
+  @each $suffix, $value in $spacingTopMobile {
     .m-t-#{$suffix} {
       margin-top: $value + px;
     }
