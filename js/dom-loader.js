@@ -1,0 +1,11 @@
+export const navbarLinks = document.querySelectorAll(".header-center")[0];
+export const navbarButtons = document.querySelectorAll(".header-right")[0];
+export const hamburger = document.getElementById("hamburger");
+export const header = document.getElementById("header");
+export const bodyElement = document.getElementsByTagName("body")[0];
+export const circle = document.getElementsByClassName("circle");
+export const dots = document.getElementsByClassName("dot");
+export const agentsCard = document.getElementsByClassName("agents-card");
+export const feedbackCard = document.getElementsByClassName("feedback-card");
+export const prevBtn = document.getElementById("prev");
+export const nextBtn = document.getElementById("next");
