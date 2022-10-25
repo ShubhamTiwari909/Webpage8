@@ -1,4 +1,4 @@
-import {navbarLinks,bodyElement,circle} from "./dom-loader";
+import {header,navbarLinks,navbarButtons,bodyElement,circle} from "./dom-loader";
 import "./feedbackSlider";
 import "./dropDown";
 import "./sliderCarousel";
