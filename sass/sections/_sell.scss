@@ -1,7 +1,7 @@
 @use "../abstracts/mixins" as *;
 
 .sell-property{
-    @include bgImageTheme("https://dl.dropboxusercontent.com/s/dkj02chybrem0zw/hero-bg-image.png?dl=0");
+    @include bgImageTheme("");
     height:700px;
     align-items:center;
 

@@ -23,13 +23,14 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                loader: 'file-loader',
-                options: {
-                  name: '[name].[ext]',
-                  outputPath: 'Images'
-                },
-            },
+                test: /\.(png|jp(e*)g|svg)$/,
+                use: [{
+                    loader: 'url-loader',
+                    options: {
+                        name: 'Images/[hash]-[name].[ext]'
+                    }
+                }]
+            }
         ],
     },
 

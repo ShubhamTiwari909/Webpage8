@@ -822,7 +822,7 @@ select {
 }
 
 .feedback {
-  background-image: url("https://dl.dropboxusercontent.com/s/h1m34nutq9ldmz6/testimonials-bg-1.png?dl=0");
+  background-image: url("./Images/testimonials-bg-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

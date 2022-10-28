@@ -524,18 +524,6 @@ select {
   bottom: 20px;
   left: 40px;
 }
-.area-card-one {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/j35g8uudgwfteuk/los-angeles.png?dl=0");
-}
-.area-card-two {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/1dt2jx2r3dya8rr/san-francisco.png?dl=0");
-}
-.area-card-three {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/txfkk3r7ip32c9z/seattle.png?dl=0");
-}
-.area-card-four {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/pk99pxf56i9yn04/san-diego.png?dl=0");
-}
 
 .header {
   display: flex;
@@ -637,24 +625,6 @@ select {
   background-position: center;
   background-size: cover;
 }
-.prop-card-image-one {
-  background-image: url("https://dl.dropboxusercontent.com/s/lv2rwdfvudreogu/property-image1.png?dl=0");
-}
-.prop-card-image-two {
-  background-image: url("https://dl.dropboxusercontent.com/s/fdn69zllj10u5us/property-image2.png?dl=0");
-}
-.prop-card-image-three {
-  background-image: url("https://dl.dropboxusercontent.com/s/id57sreilmk1kd1/property-image3.png?dl=0");
-}
-.prop-card-image-four {
-  background-image: url("https://dl.dropboxusercontent.com/s/f7rwg6cm194k1c8/property-image4.png?dl=0");
-}
-.prop-card-image-five {
-  background-image: url("https://dl.dropboxusercontent.com/s/z7rtpz4r974jz1o/property-image5.png?dl=0");
-}
-.prop-card-image-six {
-  background-image: url("https://dl.dropboxusercontent.com/s/pj7ymezdjvgvzlp/property-image6.png?dl=0");
-}
 .prop-card-label {
   padding: 8px 12px;
   border-radius: 4px;
@@ -719,7 +689,6 @@ select {
 
 .hero {
   height: 650px;
-  background-image: url("https://dl.dropboxusercontent.com/s/dkj02chybrem0zw/hero-bg-image.png?dl=0");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -807,7 +776,6 @@ select {
 }
 
 .sell-property {
-  background-image: url("https://dl.dropboxusercontent.com/s/dkj02chybrem0zw/hero-bg-image.png?dl=0");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -824,7 +792,6 @@ select {
 }
 
 .feedback {
-  background-image: url("https://dl.dropboxusercontent.com/s/h1m34nutq9ldmz6/testimonials-bg-1.png?dl=0");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

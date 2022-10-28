@@ -7,25 +7,6 @@
     height: 280px;
     padding: 30px 20px;
     @include bgImageTheme("");
-
-    &-one {
-      background-image: url("https://dl.dropboxusercontent.com/s/lv2rwdfvudreogu/property-image1.png?dl=0");
-    }
-    &-two {
-      background-image: url("https://dl.dropboxusercontent.com/s/fdn69zllj10u5us/property-image2.png?dl=0");
-    }
-    &-three {
-      background-image: url("https://dl.dropboxusercontent.com/s/id57sreilmk1kd1/property-image3.png?dl=0");
-    }
-    &-four {
-      background-image: url("https://dl.dropboxusercontent.com/s/f7rwg6cm194k1c8/property-image4.png?dl=0");
-    }
-    &-five {
-      background-image: url("https://dl.dropboxusercontent.com/s/z7rtpz4r974jz1o/property-image5.png?dl=0");
-    }
-    &-six {
-      background-image: url("https://dl.dropboxusercontent.com/s/pj7ymezdjvgvzlp/property-image6.png?dl=0");
-    }
   }
   &-label {
     padding: 8px 12px;

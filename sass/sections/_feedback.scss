@@ -2,7 +2,7 @@
 @use "../abstracts/variables" as *;
 
 .feedback{
-    @include bgImageTheme("https://dl.dropboxusercontent.com/s/h1m34nutq9ldmz6/testimonials-bg-1.png?dl=0");
+    @include bgImageTheme("");
     height: 600px;
     position: relative;
     
