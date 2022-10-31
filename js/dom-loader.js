@@ -13,6 +13,14 @@ export const typeDropdown = document.getElementById("type-content");
 export const typeDropdownBtn = document.getElementById("type-input");
 export const statusDropdown = document.getElementById("status-content");
 export const statusDropdownBtn = document.getElementById("status-input");
+export const typeInputText = document.getElementById("type-input-text");
+export const statusInputText = document.getElementById("status-input-text");
+export const valueOne = document.getElementById("value-one")
+export const valueTwo = document.getElementById("value-two")
+export const valueThree = document.getElementById("value-three")
+export const statusvalueOne = document.getElementById("statusvalue-one")
+export const statusvalueTwo = document.getElementById("statusvalue-two")
+export const statusvalueThree = document.getElementById("statusvalue-three")
 
 // img tags import
 export const logoSrc = document.getElementById("logo");

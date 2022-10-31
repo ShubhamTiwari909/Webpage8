@@ -26,11 +26,13 @@
           <li>
             <select href="javascript:void(0)" class="text-darkblue">
               <option value="Homepage">HOMEPAGE</option>
+              <option value="Brandpage">BRANDPAGE</option>
             </select>
           </li>
           <li>
             <select href="javascript:void(0)" class="text-black-one">
               <option value="Homepage">PROPERTIES</option>
+              <option value="Villas">VILLAS</option>
             </select>
           </li>
           <li>
@@ -65,8 +67,8 @@
             Find the house of your dreams
           </p>
           <form class="cr-form m-t-60">
-            <div>
-              <div class="cr-input-group">
+            <div class="dropdown-wrapper">
+              <div class="cr-input-group" id="type-input">
                 <p class="cr-input-addon font-w-500 font-small text-grey-one">
                   Type
                 </p>
@@ -74,35 +76,57 @@
                 <div
                   class="cr-input-select cr-input-select-md d-flex h-space-between"
                 >
-                  <p class="font-w-bold">Select Type</p>
-                  <div id="type-input">
-                    <a
-                      href="javascript:void(0)"
-                      class="down-arrow"
-                    ></a>
+                  <p class="font-w-bold" id="type-input-text">Select Type</p>
+                  <div>
+                    <a href="javascript:void(0)" class="down-arrow"></a>
                   </div>
                 </div>
                 <div
                   class="dropdown-content cr-input-select cr-input-select-md"
                   id="type-content"
                 >
-                  <p>One</p>
-                  <p class="p-t-10">Two</p>
-                  <p class="p-t-10">Three</p>
+                  <ul>
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        id="value-one"
+                        class="text-black-one"
+                        >One</a
+                      >
+                    </li>
+                    <li class="m-t-10">
+                      <a
+                        href="javascript:void(0)"
+                        id="value-two"
+                        class="text-black-one"
+                        >Two</a
+                      >
+                    </li>
+                    <li class="m-t-10">
+                      <a
+                        href="javascript:void(0)"
+                        id="value-three"
+                        class="text-black-one"
+                        >Three</a
+                      >
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
 
-            <div>
-              <div class="cr-input-group">
+            <div class="dropdown-wrapper">
+              <div class="cr-input-group" id="status-input">
                 <p class="cr-input-addon font-w-500 font-small text-grey-one">
                   Status
                 </p>
                 <div
                   class="cr-input-select cr-input-select-md d-flex h-space-between"
                 >
-                  <p class="font-w-bold">Select Status</p>
-                  <div id="status-input">
+                  <p class="font-w-bold" id="status-input-text">
+                    Select Status
+                  </p>
+                  <div>
                     <a href="javascript:void(0)" class="down-arrow"></a>
                   </div>
                 </div>
@@ -111,9 +135,32 @@
                 class="dropdown-content cr-input-select cr-input-select-md"
                 id="status-content"
               >
-                <p>One</p>
-                <p class="p-t-10">Two</p>
-                <p class="p-t-10">Three</p>
+                <ul>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      id="statusvalue-one"
+                      class="text-black-one"
+                      >One</a
+                    >
+                  </li>
+                  <li class="m-t-10">
+                    <a
+                      href="javascript:void(0)"
+                      id="statusvalue-two"
+                      class="text-black-one"
+                      >Two</a
+                    >
+                  </li>
+                  <li class="m-t-10">
+                    <a
+                      href="javascript:void(0)"
+                      id="statusvalue-three"
+                      class="text-black-one"
+                      >Three</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
             <input
