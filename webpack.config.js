@@ -1,15 +1,20 @@
 // HTML LUGIN
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+require('dotenv/config')
+
+
 module.exports = {
     entry: './js/app.js',
-    mode: 'development',
+    mode: process.env.NODE_ENV === "production" ? "production" : "development",
     devServer: {
         open: true
     },
     output: {
         path: `${__dirname}/dist`,
         filename: 'bundle.js',
+        assetModuleFilename: 'images/[hash][ext][query]'
     },
     module: {
         rules: [
@@ -24,14 +29,17 @@ module.exports = {
             },
             {
                 test: /\.(png|jp(e*)g|svg)$/,
-                use: [{
-                    loader: 'url-loader',
-                    options: {
-                        name: 'Images/[hash]-[name].[ext]'
-                    }
-                }]
+                type: 'asset/resource',
             }
         ],
+    },
+    optimization: {
+        minimizer: [
+            // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
+            // `...`,
+            new CssMinimizerPlugin(),
+        ],
+        minimize: true //for development mode
     },
 
     plugins: [
@@ -40,7 +48,6 @@ module.exports = {
             template: './index.html',
             filename: 'index.html'
         }),
-        new MiniCssExtractPlugin()
-
+        new MiniCssExtractPlugin(),
     ]
 };
