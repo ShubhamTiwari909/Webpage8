@@ -7,7 +7,7 @@ require('dotenv/config')
 
 module.exports = {
     entry: './js/app.js',
-    mode: process.env.NODE_ENV === "production" ? "production" : "development",
+    mode: process.env.NODE_ENV,
     devServer: {
         open: true
     },
