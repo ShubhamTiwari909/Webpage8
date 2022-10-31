@@ -4,6 +4,7 @@
     &-form{
         display:flex;
         flex-wrap: wrap;
+        align-items: center;
         gap: 30px;
         padding: 30px 29px 29px;
         background-color: $white-one;
@@ -22,13 +23,13 @@
     }
     
     &-input-select-md{
-        @include inputField(30px 16px 10px,220px);
-    }
-    &-input-select-sm{
         @include inputField(30px 16px 10px,180px);
     }
+    &-input-select-sm{
+        @include inputField(30px 16px 10px,150px);
+    }
     &-input-text{
-        @include inputField(20px 20px,350px);
+        @include inputField(20px 20px,300px);
     }
     &-input-addon{
         position:absolute;

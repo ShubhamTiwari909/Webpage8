@@ -25,19 +25,19 @@
         <ul class="navbar">
           <li>
             <select href="javascript:void(0)" class="text-darkblue">
-              <option value="Homepage">Homepage</option>
+              <option value="Homepage">HOMEPAGE</option>
             </select>
           </li>
           <li>
             <select href="javascript:void(0)" class="text-black-one">
-              <option value="Homepage">Properties</option>
+              <option value="Homepage">PROPERTIES</option>
             </select>
           </li>
           <li>
-            <a href="javascript:void(0)" class="text-black-one">About</a>
+            <a href="javascript:void(0)" class="text-black-one">ABOUT</a>
           </li>
           <li class="navbar-item">
-            <a href="javascript:void(0)" class="text-black-one">Contact</a>
+            <a href="javascript:void(0)" class="text-black-one">CONTACT</a>
           </li>
         </ul>
         <div class="compare-icon">
@@ -65,26 +65,61 @@
             Find the house of your dreams
           </p>
           <form class="cr-form m-t-60">
-            <div class="cr-input-group">
-              <p class="cr-input-addon font-w-500 font-small text-grey-one">
-                Type
-              </p>
-              <select class="cr-input-select cr-input-select-md">
-                <option value="Select Type">Select Type</option>
-              </select>
+            <div>
+              <div class="cr-input-group">
+                <p class="cr-input-addon font-w-500 font-small text-grey-one">
+                  Type
+                </p>
+
+                <div
+                  class="cr-input-select cr-input-select-md d-flex h-space-between"
+                >
+                  <p class="font-w-bold">Select Type</p>
+                  <div id="type-input">
+                    <a
+                      href="javascript:void(0)"
+                      class="down-arrow"
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="dropdown-content cr-input-select cr-input-select-md"
+                  id="type-content"
+                >
+                  <p>One</p>
+                  <p class="p-t-10">Two</p>
+                  <p class="p-t-10">Three</p>
+                </div>
+              </div>
             </div>
-            <div class="cr-input-group">
-              <p class="cr-input-addon font-w-500 font-small text-grey-one">
-                Type
-              </p>
-              <select class="cr-input-select cr-input-select-sm">
-                <option value="Select Type">Select Type</option>
-              </select>
+
+            <div>
+              <div class="cr-input-group">
+                <p class="cr-input-addon font-w-500 font-small text-grey-one">
+                  Status
+                </p>
+                <div
+                  class="cr-input-select cr-input-select-md d-flex h-space-between"
+                >
+                  <p class="font-w-bold">Select Status</p>
+                  <div id="status-input">
+                    <a href="javascript:void(0)" class="down-arrow"></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="dropdown-content cr-input-select cr-input-select-md"
+                id="status-content"
+              >
+                <p>One</p>
+                <p class="p-t-10">Two</p>
+                <p class="p-t-10">Three</p>
+              </div>
             </div>
             <input
               type="text"
               class="cr-input-text font-large text-darkgrey font-w-500"
-              placeholder="Searh for properties, suburbs or keywor0ds…"
+              placeholder="Searh for properties, suburbs or keywords…"
             />
             <input
               type="submit"

@@ -2,6 +2,7 @@ import {header,navbarLinks,navbarButtons,bodyElement,circle} from "./dom-loader"
 import "./feedbackSlider";
 import "./dropDown";
 import "./sliderCarousel";
+import "./custom-dropdown"
 
 // On load styling 
 function onLoadStyling() {

@@ -9,6 +9,10 @@ export const agentsCard = document.getElementsByClassName("agents-card");
 export const feedbackCard = document.getElementsByClassName("feedback-card");
 export const prevBtn = document.getElementById("prev");
 export const nextBtn = document.getElementById("next");
+export const typeDropdown = document.getElementById("type-content");
+export const typeDropdownBtn = document.getElementById("type-input");
+export const statusDropdown = document.getElementById("status-content");
+export const statusDropdownBtn = document.getElementById("status-input");
 
 // img tags import
 export const logoSrc = document.getElementById("logo");

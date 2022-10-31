@@ -48,3 +48,16 @@
     line-height:1.5;
 }
 
+
+
+.down-arrow{
+    display: inline-block;
+    width:15px;
+    height:10px;
+    clip-path: polygon(15% 0,50% 75%,85% 0,100% 15%,50% 100%,0 15%);
+    background-color: $black-two;
+}
+
+.dropdown-content{
+    display: none;
+}
