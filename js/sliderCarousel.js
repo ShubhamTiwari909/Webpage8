@@ -24,11 +24,17 @@ function slider(count) {
         }
         agentsCard[index].style.marginRight = `60px`;
     }
-    if (window.innerWidth >= 300) {
+    if (window.innerWidth >= 300 && window.innerWidth <= 600) {
         Array.from(agentsCard).forEach((element, index) => {
-            element.style.transform = `translateX(-${index * 10}%)`;
+            element.style.transform = `translateX(-${index * 16}%)`;
         });
     }
+    if (window.innerWidth >= 600) {
+        Array.from(agentsCard).forEach((element, index) => {
+            element.style.transform = `translateX(-${index * 12}%)`;
+        });
+    }
+   
     if (window.innerWidth >= 800) {
         Array.from(agentsCard).forEach((element, index) => {
             element.style.transform = `translateX(-${index * 15}%)`;
