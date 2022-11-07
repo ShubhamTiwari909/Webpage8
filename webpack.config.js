@@ -51,7 +51,7 @@ module.exports = {
         }),
         new MiniCssExtractPlugin(),
         new Dotenv({
-            path: `./.env`
+            path: `${__dirname}/.env`
         }),
     ]
 };

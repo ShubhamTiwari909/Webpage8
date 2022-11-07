@@ -211,6 +211,26 @@ select {
   line-height: 1.5;
 }
 
+.down-arrow {
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  -webkit-clip-path: polygon(15% 0, 50% 75%, 85% 0, 100% 15%, 50% 100%, 0 15%);
+          clip-path: polygon(15% 0, 50% 75%, 85% 0, 100% 15%, 50% 100%, 0 15%);
+  background-color: #111111;
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 60px;
+  z-index: 10;
+}
+
 .font-x-small {
   font-size: 12px;
 }
@@ -509,29 +529,17 @@ select {
   background-position: center;
   background-size: cover;
   height: 360px;
-  width: 400px;
+  width: 30%;
   position: relative;
   border-radius: 6px;
 }
 .area-card-large {
-  width: 720px;
+  width: 66%;
 }
 .area-card-text {
   position: absolute;
   bottom: 20px;
   left: 40px;
-}
-.area-card-one {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/j35g8uudgwfteuk/los-angeles.png?dl=0");
-}
-.area-card-two {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/1dt2jx2r3dya8rr/san-francisco.png?dl=0");
-}
-.area-card-three {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/txfkk3r7ip32c9z/seattle.png?dl=0");
-}
-.area-card-four {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://dl.dropboxusercontent.com/s/pk99pxf56i9yn04/san-diego.png?dl=0");
 }
 
 .header {
@@ -590,6 +598,7 @@ select {
 .cr-form {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 30px;
   padding: 30px 29px 29px;
   background-color: #ffffff;
@@ -606,15 +615,15 @@ select {
   font-size: 16px;
 }
 .cr-input-select-md {
-  width: 220px;
-  padding: 30px 16px 10px;
-}
-.cr-input-select-sm {
   width: 180px;
   padding: 30px 16px 10px;
 }
+.cr-input-select-sm {
+  width: 150px;
+  padding: 30px 16px 10px;
+}
 .cr-input-text {
-  width: 350px;
+  width: 300px;
   padding: 20px 20px;
 }
 .cr-input-addon {
@@ -633,24 +642,6 @@ select {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.prop-card-image-one {
-  background-image: url("https://dl.dropboxusercontent.com/s/lv2rwdfvudreogu/property-image1.png?dl=0");
-}
-.prop-card-image-two {
-  background-image: url("https://dl.dropboxusercontent.com/s/fdn69zllj10u5us/property-image2.png?dl=0");
-}
-.prop-card-image-three {
-  background-image: url("https://dl.dropboxusercontent.com/s/id57sreilmk1kd1/property-image3.png?dl=0");
-}
-.prop-card-image-four {
-  background-image: url("https://dl.dropboxusercontent.com/s/f7rwg6cm194k1c8/property-image4.png?dl=0");
-}
-.prop-card-image-five {
-  background-image: url("https://dl.dropboxusercontent.com/s/z7rtpz4r974jz1o/property-image5.png?dl=0");
-}
-.prop-card-image-six {
-  background-image: url("https://dl.dropboxusercontent.com/s/pj7ymezdjvgvzlp/property-image6.png?dl=0");
 }
 .prop-card-label {
   padding: 8px 12px;
@@ -716,7 +707,6 @@ select {
 
 .hero {
   height: 650px;
-  background-image: url("https://dl.dropboxusercontent.com/s/dkj02chybrem0zw/hero-bg-image.png?dl=0");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -805,7 +795,6 @@ select {
 }
 
 .sell-property {
-  background-image: url("https://dl.dropboxusercontent.com/s/dkj02chybrem0zw/hero-bg-image.png?dl=0");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -822,7 +811,6 @@ select {
 }
 
 .feedback {
-  background-image: url("./Images/testimonials-bg-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1032,8 +1020,11 @@ select {
   .hotDeal-description {
     width: 100%;
   }
+  .area-card {
+    width: 100%;
+  }
   .area-card-large {
-    width: 370px;
+    width: 100%;
   }
   .agents-card {
     min-width: 100%;
