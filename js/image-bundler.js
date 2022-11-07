@@ -55,85 +55,66 @@ agency_image_3Src.src = agency_image_3;
 
 for (let i = 0; i < agent_image_1Src.length; i++) {
     agent_image_1Src[i].src = agent_image_1;
-    agent_image_1Src[i].alt = "agent_image";
 }
 for (let i = 0; i < agent_image_2Src.length; i++) {
     agent_image_2Src[i].src = agent_image_2;
-    agent_image_2Src[i].alt = "agent_image";
 }
 for (let i = 0; i < agent_image_3Src.length; i++) {
     agent_image_3Src[i].src = agent_image_3;
-    agent_image_3Src[i].alt = "agent_image";
 }
 for (let i = 0; i < agent_profileSrc.length; i++) {
     agent_profileSrc[i].src = agent_profile;
-    agent_profileSrc[i].alt = "agent_profile";
 }
 for (let i = 0; i < area_iconSrc.length; i++) {
     area_iconSrc[i].src = area_icon;
-    area_iconSrc[i].alt = "area_icon";
 }
 for (let i = 0; i < area_icon_greySrc.length; i++) {
     area_icon_greySrc[i].src = area_icon_grey;
-    area_icon_greySrc[i].alt = "area_icon_grey";
 }
 
 for (let i = 0; i < article_1Src.length; i++) {
     article_1Src[i].src = article_1;
-    article_1Src[i].alt = "article_image";
 }
 for (let i = 0; i < article_2Src.length; i++) {
     article_2Src[i].src = article_2;
-    article_2Src[i].alt = "article_image";
 }
 for (let i = 0; i < article_3Src.length; i++) {
     article_3Src[i].src = article_3;
-    article_3Src[i].alt = "article_image";
 }
 
 for (let i = 0; i < bedroomSrc.length; i++) {
     bedroomSrc[i].src = bedroom_icon;
-    bedroomSrc[i].alt = "bedroom_icon";
 }
 for (let i = 0; i < bedroom_greySrc.length; i++) {
     bedroom_greySrc[i].src = bedroom_icon_grey;
-    bedroom_greySrc[i].alt = "bedroom_icon_grey";
 }
 for (let i = 0; i < bathroomSrc.length; i++) {
     bathroomSrc[i].src = bathroom_icon;
-    bathroomSrc[i].alt = "bathroom_icon";
 }
 for (let i = 0; i < bathroom_greySrc.length; i++) {
     bathroom_greySrc[i].src = bathroom_icon_grey;
-    bathroom_greySrc[i].alt = "bathroom_icon_grey";
 }
 for (let i = 0; i < garageSrc.length; i++) {
     garageSrc[i].src = garage_icon;
-    garageSrc[i].alt = "garage_icon";
 }
 for (let i = 0; i < garage_greySrc.length; i++) {
     garage_greySrc[i].src = garage_icon_grey;
-    garage_greySrc[i].alt = "garage_icon_grey";
 }
 
 for (let i = 0; i < flagSrc.length; i++) {
     flagSrc[i].src = flag;
-    flagSrc[i].alt = "flag";
 }
 for (let i = 0; i < footer_logoSrc.length; i++) {
     footer_logoSrc[i].src = footer_logo;
-    footer_logoSrc[i].alt = "footer_logo";
 }
 for (let i = 0; i < hero_bgSrc.length; i++) {
     hero_bgSrc[i].style.backgroundImage = `url('${hero_bg_image}')`;
 }
 for (let i = 0; i < hot_dealSrc.length; i++) {
     hot_dealSrc[i].src = hot_deal;
-    hot_dealSrc[i].alt = "hot_deal_image";
 }
 for (let i = 0; i < invalid_iconSrc.length; i++) {
     invalid_iconSrc[i].src = invalid_name;
-    invalid_iconSrc[i].alt = "invalid_name_icon";
 }
 for (let i = 0; i < property_1Src.length; i++) {
     property_1Src[i].style.backgroundImage = `url('${property_image_1}')`
@@ -170,5 +151,4 @@ for (let i = 0; i < testimonial_bgSrc.length; i++) {
 }
 for (let i = 0; i < verified_iconSrc.length; i++) {
     verified_iconSrc[i].src = verified_icon;
-    verified_iconSrc[i].alt = "verified_icon";
 }
